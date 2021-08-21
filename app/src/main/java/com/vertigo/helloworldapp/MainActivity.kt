@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG_LOG, "Hello World")
     }
 
+
     companion object {
         private val TAG_LOG = MainActivity::class.java.simpleName
     }
