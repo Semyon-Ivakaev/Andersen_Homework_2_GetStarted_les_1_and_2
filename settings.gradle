@@ -1,3 +1,4 @@
 rootProject.name = "HelloWorldApp"
 include ':app'
 include ':hellotoastchallenge'
+include ':homework_p1_2_b'
