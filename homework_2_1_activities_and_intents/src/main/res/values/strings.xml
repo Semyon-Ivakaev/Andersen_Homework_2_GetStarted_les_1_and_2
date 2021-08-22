@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework 2.1</string>
+    <string name="say_hello_button">Say Hello</string>
+    <string name="count">0</string>
+    <string name="count_button">Count</string>
+    <string name="hello_textView">Hello</string>
+    <string name="count_textView">0</string>
+</resources>
