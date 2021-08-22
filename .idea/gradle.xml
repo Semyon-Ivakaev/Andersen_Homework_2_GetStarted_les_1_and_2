@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1_3_textandscrollingviews" />
+            <option value="$PROJECT_DIR$/2_1_activities_and_intents" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/hellotoastchallenge" />
             <option value="$PROJECT_DIR$/homework_1_3_textandscrollingviews" />
