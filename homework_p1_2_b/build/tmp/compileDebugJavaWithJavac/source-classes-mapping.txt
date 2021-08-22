@@ -1,0 +1,2 @@
+com/vertigo/homework_p1_2_b/BuildConfig.java
+ com.vertigo.homework_p1_2_b.BuildConfig
