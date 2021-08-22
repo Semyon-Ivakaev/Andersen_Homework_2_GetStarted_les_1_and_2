@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HelloWorldApp</string>
+    <string name="app_name">SmileApp</string>
     <string name="toast_button">Toast</string>
     <string name="count_button">Count</string>
     <string name="count_textView">0</string>
