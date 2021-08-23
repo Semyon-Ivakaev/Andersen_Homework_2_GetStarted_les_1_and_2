@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/web_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textUri"
+        android:hint="@string/edittext_uri"/>
+
+    <Button
+        android:id="@+id/web_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_uri"
+        android:layout_marginStart="8dp"
+        android:onClick="openWebsite"/>
+
+    <EditText
+        android:id="@+id/loc_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/edittext_loc"/>
+
+    <Button
+        android:id="@+id/loc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_loc"
+        android:layout_marginStart="8dp"
+        android:onClick="openLocation"/>
+
+    <EditText
+        android:id="@+id/share_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/edittext_share"/>
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_share"
+        android:layout_marginStart="8dp"
+        android:onClick="shareText"/>
+
+    <Button
+        android:id="@+id/picture_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/picture_button"
+        android:onClick="takePicture"/>
+
+</LinearLayout>
