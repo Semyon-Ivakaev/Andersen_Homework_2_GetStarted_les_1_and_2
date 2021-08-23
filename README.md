@@ -46,3 +46,23 @@ rebase.
 Кроме задания для "2.3: Implicit intents". Оно выполнено в модуле "2_3_implicit_intents"
 в том же активите, где и задания из теории.
 
+# Сложности при выполнении ДЗ
+
+Столкнулся с проблемой в модуле 2.3: Implicit intents.
+
+Необходимо было из одного приложения при открытии url запускать не браузер, а приложение-receiver.
+
+Не появлялась возможность выбора приложения, а сразу открывался браузер.
+
+Решено добавление в манифест основного приложения ([ответ был взят тут](https://stackoverflow.com/questions/62535856/intent-resolveactivity-returns-null-in-api-30)):
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" android:host="developer.android.com" />
+        </intent>
+    </queries>
+    
+
